@@ -2,8 +2,8 @@ trigger:
 - main
 
 schedules:
-- cron: "*/5 * * * *"
-  displayName: "Every 5 minutes"
+- cron: "*/3 * * * *"
+  displayName: "Every 3 minutes"
   branches:
     include:
     - main
