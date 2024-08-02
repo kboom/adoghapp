@@ -1,5 +1,6 @@
 trigger:
 - main
+- other
 
 schedules:
 - cron: "*/15 * * * *"
