@@ -2,6 +2,13 @@ trigger:
 - ciblue
 - other
 
+schedules:
+- cron: "*/15 * * * *"
+  displayName: "Every 15 minutes"
+  branches:
+    include:
+    - main
+    
 pool: default
 
 steps:
