@@ -3,8 +3,8 @@ trigger:
 - other
 
 schedules:
-- cron: "* */5 * * *"
-  displayName: "Every 5 minutes"
+- cron: "* */15 * * *"
+  displayName: "Every 15 minutes"
   branches:
     include:
     - ciblue
