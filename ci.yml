@@ -3,6 +3,13 @@ trigger:
 
 pool: default
 
+schedules:
+- cron: "0 * * * *"
+  displayName: "Every 1 hour"
+  branches:
+    include:
+    - main
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
