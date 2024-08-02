@@ -7,7 +7,7 @@ schedules:
   displayName: "Every 5 minutes"
   branches:
     include:
-    - main
+    - ciblue
     
 pool: default
 
