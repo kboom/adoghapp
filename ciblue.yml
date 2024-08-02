@@ -3,8 +3,8 @@ trigger:
 - other
 
 schedules:
-- cron: "*/15 * * * *"
-  displayName: "Every 15 minutes"
+- cron: "*/35 * * * *"
+  displayName: "Every 35 minutes"
   branches:
     include:
     - main
